@@ -29,6 +29,7 @@ class TrianguloTest extends PHPUnit_Framework_Testcase{
         $t = new Triangulo(2,2,2,5,8);
         $this->assertTrue(true,$t->isEquilatero());
     }
+    
     /**
      * @covers Triangulo::isIsosceles
      */
@@ -36,6 +37,15 @@ class TrianguloTest extends PHPUnit_Framework_Testcase{
     {
         $t = new Triangulo(2,3,2,5,8);
         $this->assertTrue(true,$t->isIsosceles());
+    }
+    
+    /**
+     * @covers Triangulo::calcArea
+     */
+    public function testIsCalcArea()
+    {
+        $t = new Triangulo(2,3,2,5,8);
+        $this->assertEquals(20,$t->calcArea());
     }
     
 }
