@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1399473000">
+  <project timestamp="1399473000">
+    <file name="/var/www/Refactoring/Triangulo.php">
+      <class name="Triangulo" namespace="global">
+        <metrics methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="38" elements="51" coveredelements="44"/>
+      </class>
+      <line num="18" type="method" name="__construct" crap="2" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="29" type="method" name="calcArea" crap="1" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="37" type="method" name="isEscaleno" crap="5" count="1"/>
+      <line num="38" type="stmt" count="1"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="51" type="method" name="isEquilatero" crap="4" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="54" type="stmt" count="1"/>
+      <line num="55" type="stmt" count="1"/>
+      <line num="56" type="stmt" count="1"/>
+      <line num="57" type="stmt" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="65" type="method" name="isIsosceles" crap="5" count="1"/>
+      <line num="66" type="stmt" count="1"/>
+      <line num="67" type="stmt" count="1"/>
+      <line num="68" type="stmt" count="1"/>
+      <line num="69" type="stmt" count="1"/>
+      <line num="70" type="stmt" count="1"/>
+      <line num="71" type="stmt" count="1"/>
+      <line num="72" type="stmt" count="1"/>
+      <line num="79" type="method" name="isTriangulo" crap="4" count="1"/>
+      <line num="80" type="stmt" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="82" type="stmt" count="1"/>
+      <line num="83" type="stmt" count="1"/>
+      <line num="84" type="stmt" count="1"/>
+      <line num="90" type="method" name="getType" crap="4" count="1"/>
+      <line num="91" type="stmt" count="1"/>
+      <line num="92" type="stmt" count="1"/>
+      <line num="93" type="stmt" count="1"/>
+      <line num="94" type="stmt" count="1"/>
+      <line num="95" type="stmt" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="98" type="stmt" count="1"/>
+      <line num="99" type="stmt" count="1"/>
+      <line num="100" type="stmt" count="1"/>
+      <line num="101" type="stmt" count="1"/>
+      <metrics loc="104" ncloc="71" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="38" elements="51" coveredelements="44"/>
+    </file>
+    <metrics files="1" loc="104" ncloc="71" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="38" elements="51" coveredelements="44"/>
+  </project>
+</coverage>

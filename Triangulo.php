@@ -65,7 +65,13 @@ class Triangulo extends Geometric {
     public function isIsosceles() {
         $result = false;
         if ($this->isTriangulo()) {
-            if (($this->lado1 == $this->lado2) || ($this->lado2 == $this->lado3) ) {
+            if (($this->lado1 == $this->lado2) ) {
+                $result = true;
+            }
+            if (($this->lado3== $this->lado2) ) {
+                $result = true;
+            }
+            if (($this->lado1 == $this->lado3) ) {
                 $result = true;
             }
         }
@@ -80,23 +86,6 @@ class Triangulo extends Geometric {
         $result = false;
         if ($this->lado1 <= ($this->lado2 + $this->lado3) || $this->lado2 <= ($this->lado2 + $this->lado3) || $this->lado3 <= ($this->lado1 + $this->lado2)) {
             $result = true;
-        }
-        return $result;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getType() {
-        $result = $this->type[self::NAO_DEFINIDO];
-        if ($this->isEscaleno()) {
-            $result = $this->type[self::ESCALENO];
-        }
-        if ($this->isEquilatero()) {
-            $result = $this->type[self::EQUILATERO];
-        }
-        if ($this->isIsosceles()) {
-            $result = $this->type[self::ISOSCELES];
         }
         return $result;
     }

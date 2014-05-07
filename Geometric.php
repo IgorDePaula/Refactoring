@@ -61,12 +61,6 @@ abstract class Geometric {
     protected $altura = 0;
 
     /**
-     * Retorna o tipo da figura
-     * @return String Resultado do processamento
-     */
-    abstract public function getType();
-
-    /**
      * Retorna a area da figura
      * @return Mixed Area da figura
      */

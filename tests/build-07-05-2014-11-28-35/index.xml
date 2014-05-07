@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="/var/www/Refactoring">
+    <tests>
+      <test name="TrianguloTest::testIsTriangulo" result="0" status="PASSED"/>
+      <test name="TrianguloTest::testIsEscaleno" result="0" status="PASSED"/>
+      <test name="TrianguloTest::testIsEquilatero" result="0" status="PASSED"/>
+      <test name="TrianguloTest::testIsIsosceles" result="0" status="PASSED"/>
+      <test name="TrianguloTest::testIsCalcArea" result="0" status="PASSED"/>
+      <test name="TrianguloTest::testGetType" result="3" status="FAILURE"/>
+    </tests>
+    <directory name="/var/www/Refactoring">
+      <totals>
+        <lines total="104" comments="33" code="71" executable="44" executed="32" percent="72.73%"/>
+        <methods count="7" tested="4" percent="57.14%"/>
+        <functions count="0" tested="0" percent=""/>
+        <classes count="1" tested="0" percent="0.00%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <file name="Triangulo.php" href="Triangulo.php.xml">
+        <totals>
+          <lines total="104" comments="33" code="71" executable="44" executed="32" percent="72.73%"/>
+          <methods count="7" tested="4" percent="57.14%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

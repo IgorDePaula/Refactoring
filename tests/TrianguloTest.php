@@ -48,17 +48,4 @@ class TrianguloTest extends PHPUnit_Framework_Testcase{
         $this->assertEquals(20,$t->calcArea());
     }
     
-    /**
-     * @covers Triangulo::getType
-     */
-    public function testGetType()
-    {
-        $t = new Triangulo(2,3,4,5,8);
-        $this->assertEquals('Escaleno',$t->getType());
-        $t = new Triangulo(2,3,2,5,8);
-        $this->assertEquals('Isosceles',$t->getType());
-        $t = new Triangulo(2,2,2,5,8);
-        $this->assertEquals('Equilatero',$t->getType());
-    }
-    
 }

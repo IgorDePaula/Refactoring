@@ -1,0 +1,12 @@
+
+
+Code Coverage Report:    
+  2014-05-07 12:04:00    
+                         
+ Summary:                
+  Classes:  0.00% (0/1)  
+  Methods: 71.43% (5/7)  
+  Lines:   80.00% (40/50)
+
+Triangulo
+  Methods:  71.43% ( 5/ 7)   Lines:  80.00% ( 40/ 50)

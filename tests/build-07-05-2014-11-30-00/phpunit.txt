@@ -1,0 +1,38 @@
+PHPUnit 4.0.10 by Sebastian Bergmann.
+
+
+Starting test 'TrianguloTest::testIsTriangulo'.
+.
+Starting test 'TrianguloTest::testIsEscaleno'.
+.
+Starting test 'TrianguloTest::testIsEquilatero'.
+.
+Starting test 'TrianguloTest::testIsIsosceles'.
+.
+Starting test 'TrianguloTest::testIsCalcArea'.
+.
+Starting test 'TrianguloTest::testGetType'.
+F
+
+Time: 290 ms, Memory: 9.00Mb
+
+There was 1 failure:
+
+1) TrianguloTest::testGetType
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'Equilatero'
++'Isosceles'
+
+/var/www/Refactoring/tests/TrianguloTest.php:61
+
+FAILURES!
+Tests: 6, Assertions: 8, Failures: 1.
+
+Generating code coverage report in Clover XML format ... done
+
+Generating code coverage report in HTML format ... done
+
+Generating code coverage report in PHPUnit XML format ... done

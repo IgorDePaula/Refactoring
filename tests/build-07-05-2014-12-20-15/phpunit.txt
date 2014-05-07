@@ -1,0 +1,23 @@
+PHPUnit 4.0.10 by Sebastian Bergmann.
+
+
+Starting test 'TrianguloTest::testIsTriangulo'.
+.
+Starting test 'TrianguloTest::testIsEscaleno'.
+.
+Starting test 'TrianguloTest::testIsEquilatero'.
+.
+Starting test 'TrianguloTest::testIsIsosceles'.
+.
+Starting test 'TrianguloTest::testIsCalcArea'.
+.
+
+Time: 259 ms, Memory: 9.00Mb
+
+OK (5 tests, 5 assertions)
+
+Generating code coverage report in Clover XML format ... done
+
+Generating code coverage report in HTML format ... done
+
+Generating code coverage report in PHPUnit XML format ... done
