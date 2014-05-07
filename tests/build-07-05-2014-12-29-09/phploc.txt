@@ -1,0 +1,50 @@
+phploc 2.0.4 by Sebastian Bergmann.
+
+Size
+  Lines of Code (LOC)                               87
+  Comment Lines of Code (CLOC)                      30 (34.48%)
+  Non-Comment Lines of Code (NCLOC)                 57 (65.52%)
+  Logical Lines of Code (LLOC)                      19 (21.84%)
+    Classes                                         18 (94.74%)
+      Average Class Length                          18
+      Average Method Length                          3
+    Functions                                        0 (0.00%)
+      Average Function Length                        0
+    Not in classes or functions                      1 (5.26%)
+
+Complexity
+  Cyclomatic Complexity / LLOC                    0.79
+  Cyclomatic Complexity / Number of Methods       3.50
+
+Dependencies
+  Global Accesses                                    0
+    Global Constants                                 0 (0.00%)
+    Global Variables                                 0 (0.00%)
+    Super-Global Variables                           0 (0.00%)
+  Attribute Accesses                                34
+    Non-Static                                      34 (100.00%)
+    Static                                           0 (0.00%)
+  Method Calls                                       3
+    Non-Static                                       3 (100.00%)
+    Static                                           0 (0.00%)
+
+Structure
+  Namespaces                                         0
+  Interfaces                                         0
+  Traits                                             0
+  Classes                                            1
+    Abstract Classes                                 0 (0.00%)
+    Concrete Classes                                 1 (100.00%)
+  Methods                                            6
+    Scope
+      Non-Static Methods                             6 (100.00%)
+      Static Methods                                 0 (0.00%)
+    Visibility
+      Public Method                                  6 (100.00%)
+      Non-Public Methods                             0 (0.00%)
+  Functions                                          0
+    Named Functions                                  0 (0.00%)
+    Anonymous Functions                              0 (0.00%)
+  Constants                                          0
+    Global Constants                                 0 (0.00%)
+    Class Constants                                  0 (0.00%)

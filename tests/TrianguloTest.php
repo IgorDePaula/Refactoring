@@ -5,6 +5,7 @@ class TrianguloTest extends PHPUnit_Framework_Testcase{
     
     /**
      * @covers Triangulo::isTriangulo
+     * @covers Triangulo
      */
     public function testIsTriangulo()
     {
