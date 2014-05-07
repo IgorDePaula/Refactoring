@@ -7,5 +7,5 @@ mkdir $dir
 phpunit --debug --coverage-html="$dir/coverage"  --coverage-text="$dir/result.txt" --coverage-xml $dir --coverage-clover "$dir/coverage.xml"   ./ > $dir/phpunit.txt
 pdepend --jdepend-chart="$dir/chart-depend.svg" --overview-pyramid="$dir/overview.svg" --coverage-report="$dir/coverage.xml" ./
 phploc ../Triangulo.php --names-exclude="*Test.php" ./ > $dir/phploc.txt
-phpmd ./*.php html codesize,unusedcode,cleancode,design > $dir/phpmd.html
-phpcpd ./ --names="*.php" --names-exclude="*Test.php" --log-pmd="$dir/phpcpd.xml" > $dir/phpcpd.txt
+phpmd ../Triangulo.php html codesize,unusedcode,cleancode,design > $dir/phpmd.html
+phpcpd ../Triangulo.php --names-exclude="*Test.php" --log-pmd="$dir/phpcpd.xml" > $dir/phpcpd.txt

@@ -1,0 +1,34 @@
+PHPUnit 4.0.10 by Sebastian Bergmann.
+
+
+Starting test 'TrianguloTest::testIsTriangulo'.
+.
+Starting test 'TrianguloTest::testIsEscaleno'.
+.
+Starting test 'TrianguloTest::testIsEquilatero'.
+.
+Starting test 'TrianguloTest::testIsIsosceles'.
+.
+Starting test 'TrianguloTest::testIsCalcArea'.
+.
+Starting test 'TrianguloTest::testGetType'.
+E
+
+Time: 243 ms, Memory: 9.00Mb
+
+There was 1 error:
+
+1) TrianguloTest::testGetType
+Undefined property: Triangulo::$types
+
+/var/www/Refactoring/Triangulo.php:91
+/var/www/Refactoring/tests/TrianguloTest.php:57
+
+FAILURES!
+Tests: 6, Assertions: 5, Errors: 1.
+
+Generating code coverage report in Clover XML format ... done
+
+Generating code coverage report in HTML format ... done
+
+Generating code coverage report in PHPUnit XML format ... done
