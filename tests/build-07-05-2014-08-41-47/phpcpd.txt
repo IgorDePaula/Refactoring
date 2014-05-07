@@ -1,0 +1,3 @@
+phpcpd 2.0.0 by Sebastian Bergmann.
+
+No files found to scan

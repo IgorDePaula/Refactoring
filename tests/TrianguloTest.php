@@ -8,5 +8,10 @@ class TrianguloTest extends PHPUnit_Framework_Testcase{
         $t = new Triangulo(2,3,4,5,8);
         $this->assertTrue(true,$t->isTriangulo());
     }
+    public function testIsEscaleno()
+    {
+        $t = new Triangulo(2,3,4,5,8);
+        $this->assertTrue(true,$t->isEscaleno());
+    }
     
 }
